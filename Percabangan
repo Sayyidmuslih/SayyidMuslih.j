@@ -1,0 +1,10 @@
+#Percabangan
+
+ukuran_celana = int(input("masukkan ukuran celana anda :"))
+
+if ukuran_celana <26 :
+	print("ukuran celana kecil")
+elif ukuran_celana >26 :
+	print("ukuran celana normal")
+else:
+	print("ukuran celana besar")
