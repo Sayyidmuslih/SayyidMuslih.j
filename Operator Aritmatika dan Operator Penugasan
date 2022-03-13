@@ -1,0 +1,43 @@
+#operator aritmatika
+
+#Ambil input untuk mengisi nilai
+a = int(input("inputkan nilai a : "))
+b= int(input("inputkan nilai b : "))
+#Penjumlahan
+print(a+b)
+#Pengurangan
+print(a-b)
+#Perkalian
+print(a*b)
+#Pembagian
+print(a/b)
+#Sisa bagi
+print(a%b)
+#Pemangkatan
+print(a**b)
+
+
+#Operator Penugasan
+ a = 10
+ print(a)
+ a += 2
+ print(a)
+ 
+ a -= 3
+ print(a)
+ 
+ a *= 4
+ print(a)
+ 
+ a /= 6
+ print(a)
+ 
+ a %= 2
+ print(a)
+ 
+ a **= 5
+ print(a)
+ 
+ a //= 8
+ print(a)
+ 

@@ -1,0 +1,24 @@
+#Tipe data boolean
+#Tipe data string
+#Tipe data integer
+#Tipe data boolean
+
+#Tipe data boolean
+Persija_Menang = True
+if not Persija_Menang :
+	print("Persija Menang")
+
+#Tipe data String
+nama = "Amri"
+print(nama)
+print(type(nama))
+
+#Tipe data Integer
+umur = 19
+print(umur)
+print(type(umur))
+
+#Tipe data float
+tinggi = 1.65
+print(tinggi)
+print(type(tinggi))

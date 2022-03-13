@@ -1,0 +1,56 @@
+# Operator Perbandingan
+# Sama dengan ==
+# Tidak sama dengan !=
+#lebih besar dari >
+#lebih kecil dari <
+#lebih besar atau sama dengan >=
+#lebih kecil atau sama dengan >=
+
+#Sama dengan
+a = 10
+b = 5
+if a == b :
+	print("itu salah")
+	
+#tidak sama dengan
+if a != b :
+	print("itu benar")
+	
+#lebih besar dari
+if a > b :
+	print("itu benar")
+	
+#lebih kecil dari
+if a < b :
+	print("itu benar")
+	
+#lebih besar atau sama dengan
+if a >= b :
+	print("itu benar")
+	
+#lebih kecil atau sama dengan
+if a <= b :
+	print("itu salah")
+	
+
+#operator logika
+# and
+#or 
+#not
+
+#operator logika and
+ukuran_sepatu = int(input("masukkan ukuran sepatu anda :"))
+if ukuran_sepatu >25 and ukuran_sepatu <=31 :
+	print("ukuran sepatu terlalu kecil")
+else:
+	print("ukuran sepatu terlalu besar")
+	
+#operator logika or
+nama = input("masukkan nama anda :")
+ if nama == "sayyid" or nama == "muslih" :
+	print("betul itu nama saya")
+	
+#operator logika not
+Saya_Petani = False
+if not Saya_Petani == True :
+	print("Betul Saya Petani")
