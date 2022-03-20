@@ -1,0 +1,40 @@
+#contoh tuple
+#menampilkan tuple dengan perulangan
+#mengupdate salah satu tuple
+#menghapus salah satu tuple
+#menambahakan tuple
+
+#Contoh tuple
+buah = ("anggur", "melon", "pisang", "pepaya", "jambu",)
+
+#menampilkan tuple dengan perulangan
+for i in buah:
+ print(i)
+
+a = 0
+while a < len(buah):
+ print(buah[a])
+ a += 1
+
+buah = list(buah)
+
+#mengupdate salah satu tuple
+buah[2] = "semangka"
+print(buah)
+
+#menghapus salah satu tuple
+buah.pop()
+print(buah)
+
+buah.remove("melon")
+print(buah)
+
+del buah [0:2]
+print(buah)
+
+#menambahkan tuple
+buah.append ("apel")
+print(buah)
+
+buah.extend(["kelapa", "nanas"])
+print(buah)

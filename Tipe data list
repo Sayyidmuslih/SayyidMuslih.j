@@ -1,0 +1,41 @@
+#contoh penulisan list
+listBilangan = [1,2,3,4,5]
+tupleBilangan = (1,2,3,4,5)
+
+print(listBilangan)
+print(tupleBilangan)
+
+
+#contoh list
+benda = ["kursi", "meja", "pulpen", "lemari", "penggaris",]
+
+#menampilkan list dengan perulangan
+for i in benda :
+ print(i)
+
+i = 0
+while i < len (benda) :
+ print(benda[i])
+ i += 1
+
+#mengupdate salah satu list
+benda [2] = "asbak rokok"
+print(benda)
+
+#menghapus salah satu list
+benda.pop()
+print(benda)
+del benda [1:3]
+print(benda)
+benda.remove("kursi")
+print(benda)
+
+#menambahkan list
+benda.append ("kursi")
+print(benda)
+
+benda.extend (["meja", "lampu"])
+print(benda)
+
+benda.insert(3, "helem")
+print(benda)
